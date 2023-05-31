@@ -1,0 +1,70 @@
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-contato{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7C4032;
+    margin: 0px;
+    margin: 42px 0px 50px 0px;
+}
+.caixa{
+    display:flex;
+    margin-top: 14px;
+    flex-direction: column;    
+    width: 374px;
+    height: 56px;
+    left:749px;
+    align-items: center;    
+    background: #E6AF99;
+    border-radius: 61px;
+    border-style: none;
+
+}
+#contato button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7C4032;
+    text-align: center; 
+    width: 168px;
+    height: 56px;
+    border: 3px solid #7C4032;
+    border-radius: 61px;
+    margin: 14px 0px 50px 0px;
+}
+.box-form{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    gap:5px;
+    list-style-type: none;
+
+}
+.img{
+    margin-right: 25px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 102px;
+    gap:37px;
+}

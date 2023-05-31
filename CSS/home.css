@@ -1,0 +1,75 @@
+#home{
+    width: 100vw;
+}
+#home article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #FEF4DE;
+    background-image: url(/imagens-home/Fundo.svg);
+}
+#top-img-home{
+    background-color: var(--marrom-2);
+    width: 100vw;
+    height: 389px;
+    clip-path: path("M0 235.302C1010.57 235.302 1689.74 337.767 1903 389V0H0V235.302Z");
+    margin-top: -276px;
+    display: block;
+    /* height: auto; */
+}
+#bottom-img-home{
+    background-color: var(--marrom-2);
+    width: 100vw;
+    height: 389px;
+    clip-path: path("M0 41.3024C1010.57 41.3024 1689.74 143.767 1903 195V0.5H0V41.3024Z");
+    margin-top: -260px;
+    margin-bottom: -1px;
+    transform: rotate(180deg);
+}
+#conteudo-home{
+    display: flex;
+    align-items: flex-start;
+}
+#home h1{
+    font-size: 115px;
+    font-weight: 900;
+    line-height: 118.5%;
+    margin: 0px;
+}
+#home h2{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100.5%;
+    letter-spacing: 0.435em;
+    margin: 0px;
+}
+#home p{
+    width: 552px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 30px 0px;
+}
+#bottom-row-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 342px;
+}
+.botao-amarelo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #663128;
+    padding: 21px 68px;
+    border-radius: 57px;
+    border: 0px;
+    background-color: #F3CE5E;
+    cursor: pointer;
+}
+#home a{
+    color: #663128;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    /* margin-left: 50px; */
+}
